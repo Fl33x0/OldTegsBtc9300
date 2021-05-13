@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTC9300Training", "BTC9300_Training\BTC9300Training.csproj", "{AE0EC359-9BEE-4CFE-85CF-767C6CE576E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTC9300TrainingTests", "UnitTestProject1\BTC9300TrainingTests.csproj", "{69F959C7-3E21-4B21-83E6-F2F2A28DDD19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0EC359-9BEE-4CFE-85CF-767C6CE576E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0EC359-9BEE-4CFE-85CF-767C6CE576E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0EC359-9BEE-4CFE-85CF-767C6CE576E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0EC359-9BEE-4CFE-85CF-767C6CE576E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F959C7-3E21-4B21-83E6-F2F2A28DDD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F959C7-3E21-4B21-83E6-F2F2A28DDD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F959C7-3E21-4B21-83E6-F2F2A28DDD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F959C7-3E21-4B21-83E6-F2F2A28DDD19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8819F055-249E-4E9B-A9D6-E2FD28ACF6FE}
+	EndGlobalSection
+EndGlobal

@@ -23,16 +23,18 @@ namespace BTC9300Training
     /// </summary>
     public partial class MainWindow : Window   
     {
+        MainWindowViewModel mainWindowViewModel = new MainWindowViewModel();
+
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();            
 
-            DataContext = new MainWindowViewModel();
+            DataContext = mainWindowViewModel;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            ((MainWindowViewModel)DataContext).ThreadedTemperature();
-        }        
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    mainWindowViewModel.Btc.ThreadedTemperature();
+        //}        
     }
 }

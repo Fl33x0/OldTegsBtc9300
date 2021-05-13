@@ -27,7 +27,7 @@ namespace UnitTestProject1
         {
             byte[] initialQuery = { 0x01, 0x03, 0x00, 0x80, 0x00, 0x01, 0x85, 0xE2 };
 
-            ModBusCommunicator testModbusCommunicator = new ModBusCommunicator();
+            //ModBusCommunicator testModbusCommunicator = new ModBusCommunicator();
 
             Action<byte[]> createQueryAction = testModbusCommunicator.CreateQuery;
 

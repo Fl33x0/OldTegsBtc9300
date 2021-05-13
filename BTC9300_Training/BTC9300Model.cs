@@ -5,6 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows.Threading;
+using System.Threading;
+using System.IO;
+using System.IO.Ports;
 
 namespace BTC9300Training
 {
@@ -12,12 +16,13 @@ namespace BTC9300Training
     {
         private double _temperature;
 
-        ModBusCommunicator _modBusCommunicator = new ModBusCommunicator();
+        ModBusCommunicator _modBusCommunicator;
+        
         public double Temperature
         {
             get
             {
-                return this._temperature;
+                return _temperature;
             }
 
             private set
@@ -25,14 +30,14 @@ namespace BTC9300Training
                 {
                     if (value != this._temperature)
                     {
-                        this._temperature = value;
-                        OnPropertyChanged("Temperature");
+                        _temperature = value;
+                        OnPropertyChanged();
                     }
                 }
             }
         }
-        public void GetTemperature()
-        {     
+        public void GetTemperature(object sender)
+        {            
             byte[] queryToDevice = { 0x01, 0x03, 0x00, 0x80, 0x00, 0x01, 0x85, 0xE2 };
 
             _modBusCommunicator.CreateQuery(queryToDevice);
@@ -50,6 +55,26 @@ namespace BTC9300Training
         public void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public static SerialPort _serialPort = new SerialPort();
+
+        public void ThreadedTemperature()
+        {
+            
+
+            _serialPort.PortName = "COM8";
+            _serialPort.BaudRate = 38400;
+            _serialPort.StopBits = StopBits.One;
+            _serialPort.Parity = Parity.None;
+            _serialPort.DataBits = 8;
+            _serialPort.Open();
+
+            _modBusCommunicator = new ModBusCommunicator(_serialPort);
+            
+            var timer = new Timer(new TimerCallback(GetTemperature));
+
+            timer.Change(0, 100);
         }
     }
 }

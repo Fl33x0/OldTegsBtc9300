@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Windows.Threading;
+using System.Windows.Input;
 
 namespace BTC9300Training 
 {
@@ -27,28 +28,27 @@ namespace BTC9300Training
             }
         }
 
-        public MainWindowViewModel()
+
+        private RelayCommand addCommand;
+        public RelayCommand AddCommand
         {
-            _btc.GetTemperature();
+            get
+            {
+                return addCommand ??
+                  (addCommand = new RelayCommand(obj =>
+                  {
+                      _btc.ThreadedTemperature();
+                  }));
+            }
         }
+
+        public MainWindowViewModel() { }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName]string prop = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
-        }
-
-        public void ThreadedTemperature()
-        {
-            var timer = new DispatcherTimer();
-            timer.Tick += new EventHandler(timerTick);
-            timer.Interval = new TimeSpan(0, 0, 0, 0, 500);
-            timer.Start();
-        }
-
-        public void timerTick(object sender, EventArgs e)
-        {
-            _btc.GetTemperature();
         }
     }
 }

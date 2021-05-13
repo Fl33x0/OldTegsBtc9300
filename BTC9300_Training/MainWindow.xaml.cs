@@ -30,11 +30,6 @@ namespace BTC9300Training
             InitializeComponent();            
 
             DataContext = mainWindowViewModel;
-        }
-
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    mainWindowViewModel.Btc.ThreadedTemperature();
-        //}        
+        }     
     }
 }

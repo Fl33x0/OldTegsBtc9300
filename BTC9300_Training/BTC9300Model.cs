@@ -12,11 +12,23 @@ using System.IO.Ports;
 
 namespace BTC9300Training
 {
-    class BTC9300Model : INotifyPropertyChanged
+    public class BTC9300Model : INotifyPropertyChanged
     {
         private double _temperature;
 
-        ModBusCommunicator _modBusCommunicator;
+        private ModBusCommunicator _modBusCommunicator;
+
+        public ModBusCommunicator ModBusCommunicator
+        {
+            get
+            {
+                return _modBusCommunicator;
+            }
+            set
+            {
+                _modBusCommunicator = value;
+            }
+        }
         
         public double Temperature
         {
@@ -61,8 +73,6 @@ namespace BTC9300Training
 
         public void ThreadedTemperature()
         {
-            
-
             _serialPort.PortName = "COM8";
             _serialPort.BaudRate = 38400;
             _serialPort.StopBits = StopBits.One;

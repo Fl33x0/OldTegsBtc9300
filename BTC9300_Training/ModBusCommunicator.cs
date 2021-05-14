@@ -14,12 +14,6 @@ namespace BTC9300Training
         public ModBusCommunicator(SerialPort serialPort)
         {
             _serialPort = serialPort;   
-            
-            //_serialPort.PortName = "COM8";
-            //_serialPort.BaudRate = 38400;
-            //_serialPort.StopBits = StopBits.One;
-            //_serialPort.Parity = Parity.None;
-            //_serialPort.DataBits = 8;
         }
 
         public void CreateQuery(byte[] query)

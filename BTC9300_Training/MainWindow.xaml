@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BTC9300Training"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="auto" Width="auto">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="329,332,0,0" Command="{Binding AddCommand}" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="179" Margin="280,401,0,0" Command="{Binding AddCommand}" Height="57"/>
         <TextBox DataContext="{Binding Btc}"
                  Name="textBox1" HorizontalAlignment="Left"
                  Height="163" TextWrapping="Wrap" 
                  Text="{Binding Temperature, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" 
                  
-                 Width="452" Margin="56,65,0,0"/>
+                 Width="452" Margin="152,155,0,0"/>
 
     </Grid>
 </Window>

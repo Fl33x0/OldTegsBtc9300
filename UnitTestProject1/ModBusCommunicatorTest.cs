@@ -1,26 +1,26 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BTC9300Training;
 using System.IO.Ports;
+using Moq;
+using BTC9300Training;
+using BTC9300Training.Services;
 
 namespace UnitTestProject1
 {
     [TestClass]
     public class ModBusCommunicatorTest
-    {
-        static SerialPort _serialPort = new SerialPort();
-
-        ModBusCommunicator _testModbusCommunicator = new ModBusCommunicator(_serialPort);
+    {              
 
         [TestMethod]
         public void CreateQuery_WithClosedPort_InvalidOperationException()
         {
-            byte[] initialQuery = { 0x01, 0x03, 0x00, 0x80, 0x00, 0x01, 0x85, 0xE2 };
+            ISerialPortProvider _port = Mock.Of<ISerialPortProvider>();
+            var _testModBusCommunicator = new ModBusCommunicator(_port);         
 
-            Action<byte[]> createQueryAction = _testModbusCommunicator.CreateQuery;
+            byte[] _expected = { 0x01, 0x03, 0x00, 0x80, 0x00, 0x01, 0x85, 0xE2 };            
+            byte[] _actual = _testModBusCommunicator.CreateByteArrForQuery(0x01, 0x03, 0x00, 0x80, 0x00, 0x01, 0x85, 0xE2);
 
-            Assert.ThrowsException<InvalidOperationException>(()
-                => _testModbusCommunicator.CreateQuery(initialQuery), "Порт закрыт.");
+            CollectionAssert.AreEqual(_expected, _actual);
         }
     }
 }

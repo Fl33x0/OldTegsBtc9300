@@ -2,47 +2,32 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BTC9300Training;
 using System.IO.Ports;
+using Moq;
+using BTC9300Training.Services;
 
 namespace UnitTestProject1
 {
     [TestClass]
     public class BTC9300ModelTest
     {
-        BTC9300Model _btc = new BTC9300Model();
-
-        static SerialPort _serialPort = new SerialPort();
-
-
-
         [TestMethod]
-        public void GetTemperature_ValidQuery_0To1000()
+        public void ConvertTemperatureValue_byteArr_double0to1000()
         {
-            _serialPort.PortName = "COM8";
-            _serialPort.BaudRate = 38400;
-            _serialPort.StopBits = StopBits.One;
-            _serialPort.Parity = Parity.None;
-            _serialPort.DataBits = 8;
-            _serialPort.Open();
+            IModBusCommunicator _testModBusCommunicator = Mock.Of<IModBusCommunicator>();
 
-            double _expectedMinValue = 0;
-            double _expectedMaxValue = 1000;
-
-            _btc.ModBusCommunicator = new ModBusCommunicator(_serialPort);
-
-            _btc.GetTemperature("");
+            BTC9300Model _btc = new BTC9300Model(_testModBusCommunicator);
+            byte[] _byteArr = { 1, 3, 2, 78, 254, 12, 100 };
             bool _expected = true;
-            bool _returned;
 
-            if (_btc.Temperature < _expectedMaxValue & _btc.Temperature > _expectedMinValue)
+            _btc.ConvertTemperatureValue(_byteArr);
+            bool _actual = false;
+
+            if (_btc.Temperature >= 0 & _btc.Temperature <= 1000)
             {
-                _returned = true;
-            }
-            else
-            {
-                _returned = false;
+                _actual = true;
             }
 
-            Assert.AreEqual(_expected, _returned);
+            Assert.AreEqual(_expected, _actual);
         }
     }
 }

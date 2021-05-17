@@ -16,9 +16,10 @@ namespace BTC9300Training
     {
         private double _temperature;
 
-        private ModBusCommunicator _modBusCommunicator;
+        private Services.IModBusCommunicator _modBusCommunicator;
 
-        public ModBusCommunicator ModBusCommunicator
+
+        public Services.IModBusCommunicator ModBusCommunicator
         {
             get
             {
@@ -29,7 +30,7 @@ namespace BTC9300Training
                 _modBusCommunicator = value;
             }
         }
-        
+
         public double Temperature
         {
             get
@@ -49,18 +50,22 @@ namespace BTC9300Training
             }
         }
         public void GetTemperature(object sender)
-        {            
-            byte[] queryToDevice = { 0x01, 0x03, 0x00, 0x80, 0x00, 0x01, 0x85, 0xE2 };
+        {
+            byte[] queryToDevice = _modBusCommunicator.CreateByteArrForQuery(0x01, 0x03, 0x00, 0x80, 0x00, 0x01, 0x85, 0xE2);
 
             _modBusCommunicator.CreateQuery(queryToDevice);
 
             byte[] answerFromDevice = _modBusCommunicator.GetAnswer();
 
+            ConvertTemperatureValue(answerFromDevice);
+        }
+
+        public void ConvertTemperatureValue(byte[] answerFromDevice)
+        {
             int _x = (answerFromDevice[3] << 8) + answerFromDevice[4];
 
             Temperature = (double)(-19999 + _x * (45536 + 19999) / 65535) / 10;
         }
-
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -69,22 +74,16 @@ namespace BTC9300Training
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public static SerialPort _serialPort = new SerialPort();
-
-        public void ThreadedTemperature()
-        {
-            _serialPort.PortName = "COM8";
-            _serialPort.BaudRate = 38400;
-            _serialPort.StopBits = StopBits.One;
-            _serialPort.Parity = Parity.None;
-            _serialPort.DataBits = 8;
-            _serialPort.Open();
-
-            _modBusCommunicator = new ModBusCommunicator(_serialPort);
-            
+        public void GetStreamOfTemperatureValue()
+        {          
             var timer = new Timer(new TimerCallback(GetTemperature));
 
             timer.Change(0, 100);
+        }
+
+        public BTC9300Model(Services.IModBusCommunicator modBusCommunicator)
+        {
+            _modBusCommunicator = modBusCommunicator;
         }
     }
 }

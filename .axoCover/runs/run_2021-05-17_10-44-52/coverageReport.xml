@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="172" visitedSequencePoints="41" numBranchPoints="62" visitedBranchPoints="10" sequenceCoverage="23.84" branchCoverage="16.13" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="1" visitedClasses="3" numClasses="11" visitedMethods="7" numMethods="52" />
+  <Modules>
+    <Module hash="A7-C9-DF-C5-64-E2-33-15-52-FE-44-A5-67-C4-0B-1C-4F-38-98-5F">
+      <Summary numSequencePoints="19" visitedSequencePoints="18" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="94.74" branchCoverage="75" maxCyclomaticComplexity="2" minCyclomaticComplexity="0" maxCrapScore="2" minCrapScore="0" visitedClasses="2" numClasses="2" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Users\NoteToss\source\repos\BTC9300_Training\UnitTestProject1\bin\Debug\UnitTestProject1.dll</ModulePath>
+      <ModuleTime>2021-05-17T06:44:42.7364879Z</ModuleTime>
+      <ModuleName>UnitTestProject1</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\UnitTestProject1\ModBusCommunicatorTest.cs" />
+        <File uid="2" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\UnitTestProject1\BTC9300ModelTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="83.33" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1.00" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>UnitTestProject1.ModBusCommunicatorTest</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="83.33" branchCoverage="100" crapScore="1.00" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="83.33" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.00" minCrapScore="1.00" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void UnitTestProject1.ModBusCommunicatorTest::CreateQuery_WithClosedPort_InvalidOperationException()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="90" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="7" sl="19" sc="13" el="19" ec="83" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="4" ordinal="3" offset="25" sl="20" sc="13" el="20" ec="124" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="52" sl="22" sc="13" el="22" ec="49" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="6" ordinal="5" offset="60" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void UnitTestProject1.ModBusCommunicatorTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="7" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="13" visitedSequencePoints="13" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>UnitTestProject1.BTC9300ModelTest</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="66.67" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="13" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void UnitTestProject1.BTC9300ModelTest::ConvertTemperatureValue_byteArr_double0to1000()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="8" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="9" ordinal="1" offset="1" sl="16" sc="13" el="16" ec="90" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="10" ordinal="2" offset="7" sl="18" sc="13" el="18" ec="75" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="11" ordinal="3" offset="14" sl="19" sc="13" el="19" ec="61" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="12" ordinal="4" offset="32" sl="20" sc="13" el="20" ec="35" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="13" ordinal="5" offset="34" sl="22" sc="13" el="22" ec="52" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="14" ordinal="6" offset="42" sl="23" sc="13" el="23" ec="34" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="15" ordinal="7" offset="45" sl="25" sc="13" el="25" ec="66" bec="2" bev="1" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="16" ordinal="8" offset="92" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="17" ordinal="9" offset="93" sl="27" sc="17" el="27" ec="32" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="18" ordinal="10" offset="96" sl="28" sc="13" el="28" ec="14" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="19" ordinal="11" offset="97" sl="30" sc="13" el="30" ec="49" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="20" ordinal="12" offset="106" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="21" ordinal="0" offset="90" sl="25" path="0" offsetend="92" fileid="2">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="22" ordinal="1" offset="90" sl="25" path="1" offsetend="97" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="8" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="2">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void UnitTestProject1.BTC9300ModelTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="23" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods>
+        <TrackedMethod uid="1" token="100663297" name="System.Void UnitTestProject1.ModBusCommunicatorTest::CreateQuery_WithClosedPort_InvalidOperationException()" strategy="MSTestTest" />
+        <TrackedMethod uid="2" token="100663299" name="System.Void UnitTestProject1.BTC9300ModelTest::ConvertTemperatureValue_byteArr_double0to1000()" strategy="MSTestTest" />
+      </TrackedMethods>
+    </Module>
+    <Module hash="24-39-E6-74-0B-6D-8E-9C-09-A0-59-91-24-85-AB-F7-62-A3-67-6E">
+      <Summary numSequencePoints="153" visitedSequencePoints="23" numBranchPoints="58" visitedBranchPoints="7" sequenceCoverage="15.03" branchCoverage="12.07" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="1" visitedClasses="1" numClasses="9" visitedMethods="5" numMethods="50" />
+      <ModulePath>C:\Users\NoteToss\source\repos\BTC9300_Training\UnitTestProject1\bin\Debug\BTC9300_Training.exe</ModulePath>
+      <ModuleTime>2021-05-17T06:44:42.4465225Z</ModuleTime>
+      <ModuleName>BTC9300_Training</ModuleName>
+      <Files>
+        <File uid="5" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\obj\Debug\App.g.cs" />
+        <File uid="7" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\BTC9300Model.cs" />
+        <File uid="8" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\RelayCommand.cs" />
+        <File uid="9" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\MainWindowViewModel.cs" />
+        <File uid="10" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\Services\ModBusCommunicator.cs" />
+        <File uid="11" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\MainWindow.xaml.cs" />
+        <File uid="12" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\MainWindow.xaml" />
+        <File uid="13" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\Properties\Resources.Designer.cs" />
+        <File uid="14" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\Properties\Settings.Designer.cs" />
+        <File uid="15" fullPath="C:\Users\NoteToss\source\repos\BTC9300_Training\BTC9300_Training\Services\SerialPortProvider.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>BTC9300Training.App</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void BTC9300Training.App::InitializeComponent()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="24" ordinal="0" offset="0" sl="49" sc="43" el="49" ec="44" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="25" ordinal="1" offset="1" sl="5" sc="13" el="5" ec="90" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="24" ordinal="0" offset="0" sl="49" sc="43" el="49" ec="44" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void BTC9300Training.App::Main()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="26" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void BTC9300Training.App::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="27" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="39" visitedSequencePoints="23" numBranchPoints="13" visitedBranchPoints="7" sequenceCoverage="58.97" branchCoverage="53.85" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="9" />
+          <FullName>BTC9300Training.BTC9300Model</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>BTC9300Training.Services.IModBusCommunicator BTC9300Training.BTC9300Model::get_ModBusCommunicator()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="28" ordinal="0" offset="0" sl="25" sc="13" el="25" ec="14" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="29" ordinal="1" offset="1" sl="26" sc="17" el="26" ec="44" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="30" ordinal="2" offset="10" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="28" ordinal="0" offset="0" sl="25" sc="13" el="25" ec="14" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::set_ModBusCommunicator(BTC9300Training.Services.IModBusCommunicator)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="31" ordinal="0" offset="0" sl="29" sc="13" el="29" ec="14" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="32" ordinal="1" offset="1" sl="30" sc="17" el="30" ec="45" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="33" ordinal="2" offset="8" sl="31" sc="13" el="31" ec="14" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="31" ordinal="0" offset="0" sl="29" sc="13" el="29" ec="14" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Double BTC9300Training.BTC9300Model::get_Temperature()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="34" ordinal="0" offset="0" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="35" ordinal="1" offset="1" sl="38" sc="17" el="38" ec="37" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="36" ordinal="2" offset="10" sl="39" sc="13" el="39" ec="14" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="2" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="34" ordinal="0" offset="0" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="7">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="2" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="66.67" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::set_Temperature(System.Double)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="37" ordinal="0" offset="0" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="38" ordinal="1" offset="1" sl="43" sc="17" el="43" ec="18" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="39" ordinal="2" offset="2" sl="44" sc="21" el="44" ec="52" bec="2" bev="1" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="40" ordinal="3" offset="18" sl="45" sc="21" el="45" ec="22" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="41" ordinal="4" offset="19" sl="46" sc="25" el="46" ec="46" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="42" ordinal="5" offset="26" sl="47" sc="25" el="47" ec="45" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="43" ordinal="6" offset="38" sl="48" sc="21" el="48" ec="22" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="44" ordinal="7" offset="39" sl="49" sc="17" el="49" ec="18" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="45" ordinal="8" offset="40" sl="50" sc="13" el="50" ec="14" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="46" ordinal="0" offset="16" sl="44" path="0" offsetend="18" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="47" ordinal="1" offset="16" sl="44" path="1" offsetend="39" fileid="7" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="37" ordinal="0" offset="0" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="7">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::GetTemperature(System.Object)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="48" ordinal="0" offset="0" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="49" ordinal="1" offset="1" sl="54" sc="13" el="54" ec="126" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="50" ordinal="2" offset="33" sl="56" sc="13" el="56" ec="60" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="51" ordinal="3" offset="46" sl="58" sc="13" el="58" ec="71" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="52" ordinal="4" offset="58" sl="60" sc="13" el="60" ec="55" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="53" ordinal="5" offset="66" sl="61" sc="9" el="61" ec="10" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="48" ordinal="0" offset="0" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::ConvertTemperatureValue(System.Byte[])</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="54" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="55" ordinal="1" offset="1" sl="65" sc="13" el="65" ec="71" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="56" ordinal="2" offset="11" sl="67" sc="13" el="67" ec="80" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="57" ordinal="3" offset="48" sl="68" sc="9" el="68" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="54" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="7">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="58" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="59" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="66.67" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::OnPropertyChanged(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="60" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="61" ordinal="1" offset="1" sl="74" sc="13" el="74" ec="87" bec="2" bev="1" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="62" ordinal="2" offset="26" sl="75" sc="9" el="75" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="63" ordinal="0" offset="8" sl="74" path="0" offsetend="10" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="64" ordinal="1" offset="8" sl="74" path="1" offsetend="13" fileid="7" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="60" ordinal="0" offset="0" sl="73" sc="9" el="73" ec="10" bec="0" bev="0" fileid="7">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::GetStreamOfTemperatureValue()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="65" ordinal="0" offset="0" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="66" ordinal="1" offset="1" sl="79" sc="13" el="79" ec="70" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="67" ordinal="2" offset="19" sl="81" sc="13" el="81" ec="34" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="68" ordinal="3" offset="29" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="65" ordinal="0" offset="0" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void BTC9300Training.BTC9300Model::.ctor(BTC9300Training.Services.IModBusCommunicator)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="69" ordinal="0" offset="0" sl="84" sc="9" el="84" ec="77" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="70" ordinal="1" offset="7" sl="85" sc="9" el="85" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="71" ordinal="2" offset="8" sl="86" sc="13" el="86" ec="54" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="72" ordinal="3" offset="15" sl="87" sc="9" el="87" ec="10" bec="0" bev="0" fileid="7">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="69" ordinal="0" offset="0" sl="84" sc="9" el="84" ec="77" bec="0" bev="0" fileid="7">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="13" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>BTC9300Training.RelayCommand</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void BTC9300Training.RelayCommand::add_CanExecuteChanged(System.EventHandler)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="73" ordinal="0" offset="0" sl="17" sc="20" el="17" ec="60" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="73" ordinal="0" offset="0" sl="17" sc="20" el="17" ec="60" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void BTC9300Training.RelayCommand::remove_CanExecuteChanged(System.EventHandler)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="74" ordinal="0" offset="0" sl="18" sc="23" el="18" ec="63" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="74" ordinal="0" offset="0" sl="18" sc="23" el="18" ec="63" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Boolean BTC9300Training.RelayCommand::CanExecute(System.Object)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="75" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="76" ordinal="1" offset="1" sl="23" sc="13" el="23" ec="64" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="77" ordinal="2" offset="27" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="75" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void BTC9300Training.RelayCommand::Execute(System.Object)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="80" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="81" ordinal="1" offset="1" sl="28" sc="13" el="28" ec="32" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="82" ordinal="2" offset="14" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="80" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void BTC9300Training.RelayCommand::.ctor(System.Action`1&lt;System.Object&gt;,System.Func`2&lt;System.Object,System.Boolean&gt;)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="83" ordinal="0" offset="0" sl="31" sc="9" el="31" ec="90" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="84" ordinal="1" offset="7" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="85" ordinal="2" offset="8" sl="33" sc="13" el="33" ec="36" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="86" ordinal="3" offset="15" sl="34" sc="13" el="34" ec="42" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="87" ordinal="4" offset="22" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="83" ordinal="0" offset="0" sl="31" sc="9" el="31" ec="90" bec="0" bev="0" fileid="8" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="20" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="6" />
+          <FullName>BTC9300Training.MainWindowViewModel</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>BTC9300Training.BTC9300Model BTC9300Training.MainWindowViewModel::get_Btc()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="88" ordinal="0" offset="0" sl="22" sc="13" el="22" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="89" ordinal="1" offset="1" sl="23" sc="17" el="23" ec="29" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="90" ordinal="2" offset="10" sl="24" sc="13" el="24" ec="14" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="88" ordinal="0" offset="0" sl="22" sc="13" el="22" ec="14" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindowViewModel::set_Btc(BTC9300Training.BTC9300Model)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="91" ordinal="0" offset="0" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="92" ordinal="1" offset="1" sl="27" sc="17" el="27" ec="30" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="93" ordinal="2" offset="8" sl="28" sc="17" el="28" ec="39" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="94" ordinal="3" offset="20" sl="29" sc="13" el="29" ec="14" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="91" ordinal="0" offset="0" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>BTC9300Training.RelayCommand BTC9300Training.MainWindowViewModel::get_AddCommand()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="95" ordinal="0" offset="0" sl="36" sc="13" el="36" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="96" ordinal="1" offset="1" sl="37" sc="17" el="41" ec="23" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="97" ordinal="2" offset="41" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="95" ordinal="0" offset="0" sl="36" sc="13" el="36" ec="14" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindowViewModel::.ctor()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="100" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="113" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="101" ordinal="1" offset="21" sl="45" sc="9" el="45" ec="37" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="102" ordinal="2" offset="28" sl="45" sc="38" el="45" ec="39" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="103" ordinal="3" offset="29" sl="45" sc="40" el="45" ec="41" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="100" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="113" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindowViewModel::add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="104" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindowViewModel::remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="105" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindowViewModel::OnPropertyChanged(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="106" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="107" ordinal="1" offset="1" sl="51" sc="13" el="51" ec="79" bec="2" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="108" ordinal="2" offset="26" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="109" ordinal="0" offset="8" sl="51" path="0" offsetend="10" fileid="9" />
+                <BranchPoint vc="0" uspid="110" ordinal="1" offset="8" sl="51" path="1" offsetend="13" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="106" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindowViewModel::&lt;get_AddCommand&gt;b__6_0(System.Object)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="111" ordinal="0" offset="0" sl="39" sc="19" el="39" ec="20" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="112" ordinal="1" offset="1" sl="40" sc="23" el="40" ec="58" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="113" ordinal="2" offset="13" sl="41" sc="19" el="41" ec="20" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="111" ordinal="0" offset="0" sl="39" sc="19" el="39" ec="20" bec="0" bev="0" fileid="9" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="28" visitedSequencePoints="0" numBranchPoints="7" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="7" />
+          <FullName>BTC9300Training.ModBusCommunicator</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>BTC9300Training.Services.ISerialPortProvider BTC9300Training.ModBusCommunicator::BTC9300Training.Services.IModBusCommunicator.get_SerialPort()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="114" ordinal="0" offset="0" sl="16" sc="69" el="16" ec="80" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="114" ordinal="0" offset="0" sl="16" sc="69" el="16" ec="80" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void BTC9300Training.ModBusCommunicator::BTC9300Training.Services.IModBusCommunicator.set_SerialPort(BTC9300Training.Services.ISerialPortProvider)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="115" ordinal="0" offset="0" sl="16" sc="89" el="16" ec="108" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="115" ordinal="0" offset="0" sl="16" sc="89" el="16" ec="108" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void BTC9300Training.ModBusCommunicator::CreateQuery(System.Byte[])</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="116" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="117" ordinal="1" offset="1" sl="20" sc="13" el="20" ec="55" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="118" ordinal="2" offset="18" sl="21" sc="13" el="21" ec="30" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="119" ordinal="3" offset="26" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="116" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Byte[] BTC9300Training.ModBusCommunicator::GetAnswer()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="120" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="121" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="42" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="122" ordinal="2" offset="8" sl="28" sc="13" el="28" ec="45" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="123" ordinal="3" offset="23" sl="30" sc="13" el="30" ec="28" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="124" ordinal="4" offset="27" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="120" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Byte[] BTC9300Training.ModBusCommunicator::CreateByteArrForQuery(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="125" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="126" ordinal="1" offset="1" sl="35" sc="13" el="35" ec="68" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="127" ordinal="2" offset="45" sl="36" sc="13" el="36" ec="31" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="128" ordinal="3" offset="49" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="125" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void BTC9300Training.ModBusCommunicator::.ctor(BTC9300Training.Services.ISerialPortProvider)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="129" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="66" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="130" ordinal="1" offset="7" sl="40" sc="9" el="40" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="131" ordinal="2" offset="8" sl="41" sc="13" el="41" ec="38" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="132" ordinal="3" offset="15" sl="42" sc="13" el="42" ec="43" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="133" ordinal="4" offset="22" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="129" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="66" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void BTC9300Training.ModBusCommunicator::SetBTC9300DefaultParameters()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="134" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="135" ordinal="1" offset="1" sl="47" sc="13" el="47" ec="43" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="136" ordinal="2" offset="18" sl="48" sc="13" el="48" ec="42" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="137" ordinal="3" offset="35" sl="49" sc="13" el="49" ec="49" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="138" ordinal="4" offset="48" sl="50" sc="13" el="50" ec="46" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="139" ordinal="5" offset="61" sl="51" sc="13" el="51" ec="38" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="140" ordinal="6" offset="74" sl="52" sc="13" el="52" ec="32" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="141" ordinal="7" offset="86" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="134" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>BTC9300Training.MainWindow</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindow::.ctor()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="142" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="77" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="143" ordinal="1" offset="11" sl="28" sc="9" el="28" ec="28" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="144" ordinal="2" offset="18" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="145" ordinal="3" offset="19" sl="30" sc="13" el="30" ec="35" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="146" ordinal="4" offset="26" sl="32" sc="13" el="32" ec="47" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="147" ordinal="5" offset="39" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="142" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="77" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindow::InitializeComponent()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="148" ordinal="0" offset="33" sl="1" sc="13" el="1" ec="77" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="151" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void BTC9300Training.MainWindow::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="152" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>BTC9300Training.Properties.Resources</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Resources.ResourceManager BTC9300Training.Properties.Resources::get_ResourceManager()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="153" ordinal="0" offset="0" sl="44" sc="13" el="44" ec="14" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="154" ordinal="1" offset="1" sl="45" sc="17" el="45" ec="43" bec="2" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="155" ordinal="2" offset="13" sl="46" sc="17" el="46" ec="18" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="156" ordinal="3" offset="14" sl="47" sc="21" el="47" ec="183" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="157" ordinal="4" offset="40" sl="48" sc="21" el="48" ec="40" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="158" ordinal="5" offset="46" sl="49" sc="17" el="49" ec="18" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="159" ordinal="6" offset="47" sl="50" sc="17" el="50" ec="36" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="160" ordinal="7" offset="55" sl="51" sc="13" el="51" ec="14" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="161" ordinal="0" offset="11" sl="45" path="0" offsetend="13" fileid="13" />
+                <BranchPoint vc="0" uspid="162" ordinal="1" offset="11" sl="45" path="1" offsetend="47" fileid="13" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="153" ordinal="0" offset="0" sl="44" sc="13" el="44" ec="14" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Globalization.CultureInfo BTC9300Training.Properties.Resources::get_Culture()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="163" ordinal="0" offset="0" sl="62" sc="13" el="62" ec="14" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="164" ordinal="1" offset="1" sl="63" sc="17" el="63" ec="40" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="165" ordinal="2" offset="9" sl="64" sc="13" el="64" ec="14" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="163" ordinal="0" offset="0" sl="62" sc="13" el="62" ec="14" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void BTC9300Training.Properties.Resources::set_Culture(System.Globalization.CultureInfo)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="166" ordinal="0" offset="0" sl="66" sc="13" el="66" ec="14" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="167" ordinal="1" offset="1" sl="67" sc="17" el="67" ec="41" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="168" ordinal="2" offset="7" sl="68" sc="13" el="68" ec="14" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="166" ordinal="0" offset="0" sl="66" sc="13" el="66" ec="14" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void BTC9300Training.Properties.Resources::.ctor()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="169" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="29" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="170" ordinal="1" offset="7" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="171" ordinal="2" offset="8" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="169" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="29" bec="0" bev="0" fileid="13" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>BTC9300Training.Properties.Settings</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>BTC9300Training.Properties.Settings BTC9300Training.Properties.Settings::get_Default()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="172" ordinal="0" offset="0" sl="25" sc="13" el="25" ec="14" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="173" ordinal="1" offset="1" sl="26" sc="17" el="26" ec="40" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="174" ordinal="2" offset="9" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="172" ordinal="0" offset="0" sl="25" sc="13" el="25" ec="14" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void BTC9300Training.Properties.Settings::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="175" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.Void BTC9300Training.Properties.Settings::.cctor()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="176" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="147" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="176" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="147" bec="0" bev="0" fileid="14" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="23" visitedSequencePoints="0" numBranchPoints="14" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="14" />
+          <FullName>BTC9300Training.Services.SerialPortProvider</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.String BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.get_PortName()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="177" ordinal="0" offset="0" sl="13" sc="54" el="13" ec="74" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="177" ordinal="0" offset="0" sl="13" sc="54" el="13" ec="74" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663347</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.set_PortName(System.String)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="178" ordinal="0" offset="0" sl="13" sc="83" el="13" ec="111" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="178" ordinal="0" offset="0" sl="13" sc="83" el="13" ec="111" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.Int32 BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.get_BaudRate()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="179" ordinal="0" offset="0" sl="15" sc="51" el="15" ec="71" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="179" ordinal="0" offset="0" sl="15" sc="51" el="15" ec="71" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.set_BaudRate(System.Int32)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="180" ordinal="0" offset="0" sl="15" sc="80" el="15" ec="108" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="180" ordinal="0" offset="0" sl="15" sc="80" el="15" ec="108" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.IO.Ports.Parity BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.get_Parity()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="181" ordinal="0" offset="0" sl="17" sc="52" el="17" ec="70" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="181" ordinal="0" offset="0" sl="17" sc="52" el="17" ec="70" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663351</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.set_Parity(System.IO.Ports.Parity)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="182" ordinal="0" offset="0" sl="17" sc="79" el="17" ec="105" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="182" ordinal="0" offset="0" sl="17" sc="79" el="17" ec="105" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663352</MetadataToken>
+              <Name>System.Int32 BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.get_DataBits()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="183" ordinal="0" offset="0" sl="19" sc="51" el="19" ec="71" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="183" ordinal="0" offset="0" sl="19" sc="51" el="19" ec="71" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663353</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.set_DataBits(System.Int32)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="184" ordinal="0" offset="0" sl="19" sc="80" el="19" ec="108" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="184" ordinal="0" offset="0" sl="19" sc="80" el="19" ec="108" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663354</MetadataToken>
+              <Name>System.IO.Ports.StopBits BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.get_StopBits()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="185" ordinal="0" offset="0" sl="21" sc="56" el="21" ec="76" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="185" ordinal="0" offset="0" sl="21" sc="56" el="21" ec="76" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663355</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.set_StopBits(System.IO.Ports.StopBits)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="186" ordinal="0" offset="0" sl="21" sc="85" el="21" ec="113" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="186" ordinal="0" offset="0" sl="21" sc="85" el="21" ec="113" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663356</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::BTC9300Training.Services.ISerialPortProvider.Open()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="187" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="188" ordinal="1" offset="1" sl="25" sc="13" el="25" ec="32" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="189" ordinal="2" offset="13" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="187" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663357</MetadataToken>
+              <Name>System.Int32 BTC9300Training.Services.SerialPortProvider::Read(System.Byte[],System.Int32,System.Int32)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="190" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="191" ordinal="1" offset="1" sl="30" sc="13" el="30" ec="60" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="192" ordinal="2" offset="18" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="190" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663358</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::Write(System.Byte[],System.Int32,System.Int32)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="193" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="194" ordinal="1" offset="1" sl="35" sc="13" el="35" ec="59" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="195" ordinal="2" offset="16" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="193" ordinal="0" offset="0" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663359</MetadataToken>
+              <Name>System.Void BTC9300Training.Services.SerialPortProvider::.ctor()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="196" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="36" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="197" ordinal="1" offset="7" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="198" ordinal="2" offset="8" sl="40" sc="13" el="40" ec="44" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="0" uspid="199" ordinal="3" offset="19" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="196" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="36" bec="0" bev="0" fileid="15" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods />
+    </Module>
+  </Modules>
+</CoverageSession>

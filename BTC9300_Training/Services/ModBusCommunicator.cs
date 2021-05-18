@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO.Ports;
 using System.Threading;
 using BTC9300Training.Services;
+using Moq;
 
 namespace BTC9300Training
 {

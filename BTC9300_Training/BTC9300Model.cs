@@ -60,11 +60,11 @@ namespace BTC9300Training
             ConvertTemperatureValue(answerFromDevice);
         }
 
-        public void ConvertTemperatureValue(byte[] answerFromDevice)
+        public double ConvertTemperatureValue(byte[] answerFromDevice)
         {
             int _x = (answerFromDevice[3] << 8) + answerFromDevice[4];
 
-            Temperature = (double)(-19999 + _x * (45536 + 19999) / 65535) / 10;
+            return Temperature = (double)(-19999 + (_x * (45536 + 19999) / 65535)) / 10;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

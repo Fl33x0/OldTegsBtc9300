@@ -17,17 +17,24 @@ namespace UnitTestProject1
 
             BTC9300Model _btc = new BTC9300Model(_testModBusCommunicator);
             byte[] _byteArr = { 1, 3, 2, 78, 254, 12, 100 };
-            bool _expected = true;
+            double _expected = 22.3;
 
-            _btc.ConvertTemperatureValue(_byteArr);
-            bool _actual = false;
-
-            if (_btc.Temperature >= 0 & _btc.Temperature <= 1000)
-            {
-                _actual = true;
-            }
+            double _actual = _btc.ConvertTemperatureValue(_byteArr);
 
             Assert.AreEqual(_expected, _actual);
         }
+
+        [TestMethod]
+        public void GetTemperature_()
+        {
+            byte[] _testArr = { 1, 3, 2, 78, 253, 76, 101 };
+            var _modBus = Mock.Of<IModBusCommunicator>(m => m.GetAnswer() == _testArr);
+
+            var _btc = new BTC9300Model(_modBus);
+            _btc.GetTemperature("");
+
+            double _expected = 22.2;
+            Assert.AreEqual(_expected, _btc.Temperature);
+        }        
     }
 }

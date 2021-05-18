@@ -41,7 +41,7 @@ namespace BTC9300Training
             private set
             {
                 {
-                    if (value != this._temperature)
+                    if (value != _temperature)
                     {
                         _temperature = value;
                         OnPropertyChanged();
@@ -57,14 +57,14 @@ namespace BTC9300Training
 
             byte[] answerFromDevice = _modBusCommunicator.GetAnswer();
 
-            ConvertTemperatureValue(answerFromDevice);
+            Temperature = ConvertTemperatureValue(answerFromDevice);
         }
 
         public double ConvertTemperatureValue(byte[] answerFromDevice)
         {
             int _x = (answerFromDevice[3] << 8) + answerFromDevice[4];
 
-            return Temperature = (double)(-19999 + (_x * (45536 + 19999) / 65535)) / 10;
+            return (double)(-19999 + (_x * (45536 + 19999) / 65535)) / 10;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
